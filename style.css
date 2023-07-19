@@ -1,0 +1,93 @@
+.logo{
+    /* padding: 0; */
+    /* margin: 0; */
+    /* box-sizing: border-box; */
+    background-image: url(images/firstimage.jpg);
+    height: 100%;
+    width: 100%;
+}
+.u_logo{
+    border:0;
+    height: 1px;
+    margin: -1px;
+    /* overflow: hidden; */
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    font-style: italic;
+
+}
+.logo_wrap{
+    background-image: url(images/harvard-universitylogo.jpg);
+    color:#fff;
+}
+ .uni_logo{
+    height: 50px;
+} 
+.icon_search{
+    font-family: core-icons!important;
+    font-style: normal;
+}
+.subheader_title{
+    font-family: Canela Deck Web;
+    font-size: 48px;
+    line-height: 1.2;
+    letter-spacing: -.1px;
+    padding-bottom: 16px;
+    color: #f3f4f4;
+    font-weight: 400;
+    font-style: normal;
+}
+.column-right-subheader{
+    animation: cubic-bezier(.4,0,.2,1) 1.5s a;
+    flex-wrap: wrap;
+}
+
+ .column-right{
+    font-family: GT Ameriaca Standard Regular;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    width:100%;
+    color:#f3f4f4;
+
+}
+.menu-object-page{
+    font-family: GT America Standard Regular;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    display: inline-block;
+    padding-bottom: 16px;
+    text-transform: none;
+}
+.b-header-borde{
+    background-color: #f3f4f4;
+    border: none;
+    margin: 0;
+    padding-bottom: 32px;
+    padding-top: 40px;
+    position: relative;
+    z-index: 2;
+}
+.b-header-borde{
+    border-bottom: 10px solid #1e1e1e;
+    content: "";
+height: 10px;
+position: absolute;
+bottom: 40px;
+width: 100%;
+
+}
+.c-image{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    border-style: none;
+}
+ 
