@@ -294,6 +294,118 @@ a{
     font-size: 24px;
 }
 /* section grid-block */
+/* =============================footer============= */
+.footer-site{
+    background-color: #0e0e0e;
+    color: #8996a0;
+    padding-bottom: 64px;
+    padding-top: 64px;
+    position: relative;
+    z-index: 2;
+}
+.left-f-container{
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 100%;
+}
+.footer-row{
+    margin: 0 auto;
+    max-width: 848px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-menu-col{
+    padding-bottom: 24px;
+}
+.footer-heading{
+    color: #f3f4f4;
+    font-family: GT America Standard Bold;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.footer-nav{
+    display: block;
+    color: #8996a0;
+}
+.footer-nav-list{
+    text-align: center;
+}
+ol,ul{
+    list-style: none;
+}
+.footer-one-item,.footer-two-item,.footer-three-item{
+    font-family: GT America Standard Regular;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 8px
+}
+.footer-one__action,.footer-two__action, .footer-three__action{
+    border-bottom: 1px solid transparent;
+    color: #8996a0;
+    padding-bottom: 2px
+}
+.site-footer-row{
+  display: flex;
+  flex-direction: column;
+}
+.site-footer-copyright{
+    font-family: GT America Standard Regular;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    line-height: 1.5;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    justify-content: center;
+    order: 3;
+}
+.site-footer-logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    order: 1;
+    color: #f3f4f4;
+}
+.site-footer-social{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 24px;
+    padding-top: 40px;
+    order: 2;
+}
+.social-follow-lis{
+display: flex;
+}
+.social-follow__item{
+    font-family: GT America Standard Regular;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    line-height: 1.5;
+    color: #8996a0;
+    font-size: 16px;
+    margin-right: 24px;
+}
+.social-follow__anchor{
+    border-bottom: 1px solid transparent;
+    color: #8996a0;
+    padding-bottom: 2px;
+}
 
 /* Responsive adjustments for different screen sizes */
 
