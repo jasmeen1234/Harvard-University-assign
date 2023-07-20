@@ -1,7 +1,7 @@
 .logo{
     /* padding: 0; */
     /* margin: 0; */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     background-image: url(images/firstimage.jpg);
     height: 100%;
     width: 100%;
@@ -75,7 +75,7 @@
     position: relative;
     z-index: 2;
 }
-.b-header-borde::after{
+.b-header-border::after{
     border-bottom: 10px solid #1e1e1e;
     content: "";
 height: 10px;
@@ -84,6 +84,90 @@ bottom: 40px;
 width: 100%;
 
 }
+/* ============================== */
+.c-block-top-padding{
+    background-color: #f3f4f4;
+    margin: 0;
+    padding: 32px 0;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.l-container{
+    margin-top: 32px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.c-image{
+    animation: cubic-bezier(.4,0,.2,1) 1s d;
+    animation-duration: 1s;
+    line-height: 0;
+    /* height: auto; */
+    /* display: block; */
+}
+
+.c-statistic-value{
+    font-size: 48px;
+    color: #a51c30;
+    font-family: Canela Deck Web;
+   list-style-type: none;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    
+    word-break: normal;
+    word-wrap: anywhere;
+}
+.c-statistic-label{
+    font-family: GT America Standard Regular;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    color: #1e1e1e;
+    text-transform: none;
+    margin-top: 8px;
+}
+.c-statistic-label-ex{
+    font-family: GT America Standard Regular;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.1px;
+    color: #1e1e1e;
+    
+}
+.h6-b-column{
+    text-rendering: optimizeLegibility;
+    font-family: GT America Standard Bold;
+    font-size: 24px;
+    line-height: 1.4;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.1px;
+}
+.h6-column-link{
+    color: #0e0e0e;
+}
+.c-content-block{
+    color: #0e0e0e;
+    font-family: bold;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.explore{
+    font-size: 18px;
+    color: #1e1e1e;
+}
+
+
 .c-image{
     margin-left: auto;
     margin-right: auto;
@@ -106,6 +190,12 @@ width: 100%;
     margin-right: 24px;
     padding-right: 24px;
     width: 100%;
+}
+/* c-block-layou============= */
+.c-block-layout{
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: space-between;
 }
 .c-block-content{
  margin-left: -24px;
@@ -203,6 +293,8 @@ width: 100%;
     color: #f3f4f4;
     font-size: 24px;
 }
+/* section grid-block */
+
 /* Responsive adjustments for different screen sizes */
 
 /* For screens with width less than 768px */
